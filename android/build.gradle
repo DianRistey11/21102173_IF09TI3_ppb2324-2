@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 buildscript {
     ext.kotlin_version = '1.7.10'
     repositories {
@@ -10,6 +11,8 @@ buildscript {
     }
 }
 
+=======
+>>>>>>> 7b99c57 (first commit)
 allprojects {
     repositories {
         google()

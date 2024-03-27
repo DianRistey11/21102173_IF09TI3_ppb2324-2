@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
+=======
+import 'package:flutter_application_1/Home_page.dart';
+import 'package:flutter_application_1/Second_page.dart';
+>>>>>>> 7b99c57 (first commit)
 
 void main() {
   runApp(const MyApp());
@@ -7,6 +12,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+<<<<<<< HEAD
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -168,3 +174,19 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+=======
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp (
+      debugShowCheckedModeBanner: false,
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const HomePage(),
+        '/second_page': (context) => const SecondPage(),
+      },
+    );
+  }
+}
+   
+>>>>>>> 7b99c57 (first commit)

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # praktikum_04_layouting
+=======
+# flutter_application_1
+>>>>>>> 7b99c57 (first commit)
 
 A new Flutter project.
 
